@@ -19,32 +19,34 @@
     </head>
     <body>
         <header class="header">
-            <div class="container">
-                <nav>
+            <div class="container header-container">
+                <nav class="nav">
                     <a href="./index.html" class="logo"
                         ><span class="logo-text">Web</span>Studio</a
                     >
                     <ul class="site-nav list">
-                        <li>
+                        <li class="site-item">
                             <a href="./index.html" class="link active-page"
                                 >Студия</a
                             >
                         </li>
-                        <li>
+                        <li class="site-item">
                             <a href="./portfolio.html" class="link"
                                 >Портфолио</a
                             >
                         </li>
-                        <li><a href="#contacts" class="link">Контакты</a></li>
+                        <li class="site-item">
+                            <a href="#contacts" class="link">Контакты</a>
+                        </li>
                     </ul>
                 </nav>
-                <ul class="site-item list">
-                    <li>
+                <ul class="site-list header-container list">
+                    <li class="site-link">
                         <a href="mailto:info@devstudio.com" class="header-link"
                             >info@devstudio.com</a
                         >
                     </li>
-                    <li>
+                    <li class="site-link">
                         <a href="tel:+380961111111 " class="header-link"
                             >+38 096 111 11 11</a
                         >
@@ -104,21 +106,21 @@
                 <div class="container">
                     <h2 class="about-title">Чем мы занимаемся</h2>
                     <ul class="about-list">
-                        <li>
+                        <li class="about-item">
                             <img
                                 src="./images/about-img-1-min.jpg"
                                 alt="разработчик пишет код"
                                 width="370"
                             />
                         </li>
-                        <li>
+                        <li class="about-item">
                             <img
                                 src="./images/about-img-2-min.jpg"
                                 alt="дезайнер создает макет"
                                 width="370"
                             />
                         </li>
-                        <li>
+                        <li class="about-item">
                             <a href="">
                                 <img
                                     src="./images/about-img-3-min.jpg"
@@ -134,47 +136,47 @@
                 <div class="container">
                     <h2 class="team-title">Наша команда</h2>
                     <ul class="team-list">
-                        <li>
+                        <li class="team-item">
                             <img
                                 src="./images/product-designer-min.jpg"
                                 alt="фото сотрудника"
                                 width="270"
                             />
                             <div class="team-item-content">
-                                <h3 class="team-item">Игорь Демьяненко</h3>
+                                <h3 class="team-item-text">Игорь Демьяненко</h3>
                                 <p class="team-text">Product Designer</p>
                             </div>
                         </li>
-                        <li>
+                        <li class="team-item">
                             <img
                                 src="./images/frontend-developer-min.jpg"
                                 alt="фото сотрудника"
                                 width="270"
                             />
                             <div class="team-item-content">
-                                <h3 class="team-item">Ольга Репина</h3>
+                                <h3 class="team-item-text">Ольга Репина</h3>
                                 <p class="team-text">Frontend Developer</p>
                             </div>
                         </li>
-                        <li>
+                        <li class="team-item">
                             <img
                                 src="./images/marketing-min.jpg"
                                 alt="фото сотрудника"
                                 width="270"
                             />
                             <div class="team-item-content">
-                                <h3 class="team-item">Николай Тарасов</h3>
+                                <h3 class="team-item-text">Николай Тарасов</h3>
                                 <p class="team-text">Marketing</p>
                             </div>
                         </li>
-                        <li>
+                        <li class="team-item">
                             <img
                                 src="./images/ui-designer-min.jpg"
                                 alt="фото сотрудника"
                                 width="270"
                             />
                             <div class="team-item-content">
-                                <h3 class="team-item">Михаил Ермаков</h3>
+                                <h3 class="team-item-text">Михаил Ермаков</h3>
                                 <p class="team-text">UI Designer</p>
                             </div>
                         </li>
@@ -183,7 +185,8 @@
             </section>
         </main>
         <footer class="footer">
-            <a href="./index.html" lang="en" class="logo" id="contacts"
+            <div class="container">
+                <a href="./index.html" lang="en" class="logo" id="contacts"
                 >Web<span class="footer-logo">Studio</span></a
             >
             <address class="address">
@@ -208,6 +211,7 @@
                         >
                     </li>
                 </ul>
+            </div>
             </address>
         </footer>
     </body>
