@@ -66,10 +66,7 @@ button {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-
-    outline: 2px solid red;
 }
-
 /* ---------------HEADER--------------- */
 
 .header {
@@ -425,7 +422,7 @@ button {
 }
 
 .portfolio-item:nth-last-child(-n + 3) {
-    margin: 0;
+    margin-bottom: 0;
 }
 
 .portfolio-content {
