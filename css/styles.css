@@ -162,7 +162,7 @@ button {
 /* -----------HERO------------ */
 
 .hero {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
     text-align: center;
 
     background-color: #2f303a;
@@ -211,7 +211,8 @@ button {
 /* ----------SECTION ADVANTAGES---------- */
 
 .advantages {
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .advantages-list {
@@ -241,6 +242,10 @@ button {
 
 /* -------------SECTION ABOUT-------------- */
 
+.about {
+    padding-bottom: 94px;
+}
+
 .about-title {
     margin-top: 0;
     margin-bottom: 50px;
@@ -262,8 +267,9 @@ button {
 }
 
 .about-item:last-child {
-    margin: 0;
+    margin-right: 0;
 }
+
 /* -----------SECTION TEAM-------------- */
 
 .team {
@@ -275,6 +281,7 @@ button {
 
 .team-title {
     margin-top: 0;
+    margin-bottom: 50px;
 
     font-size: 36px;
     line-height: calc(42 / 36);
