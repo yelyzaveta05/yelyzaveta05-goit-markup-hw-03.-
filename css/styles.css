@@ -76,6 +76,8 @@ button {
 
 .header {
     border-bottom: 1px solid #ececec;
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .header-container {
