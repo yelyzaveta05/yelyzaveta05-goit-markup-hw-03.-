@@ -60,6 +60,11 @@ button {
     margin: -1px;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .container {
     width: 1200px;
     margin-left: auto;
@@ -70,8 +75,7 @@ button {
 /* ---------------HEADER--------------- */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -162,7 +166,10 @@ button {
 /* -----------HERO------------ */
 
 .hero {
-    padding-bottom: 94px;
+    /* width: 1600px; */
+
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
 
     background-color: #2f303a;
@@ -172,11 +179,8 @@ button {
     display: inline-block;
     margin-top: 0;
     margin-bottom: 30px;
-    padding-top: 200px;
-    padding-bottom: 280px;
 
     width: 696px;
-    height: 120px;
 
     font-weight: 900;
     font-size: 44px;
@@ -210,9 +214,12 @@ button {
 
 /* ----------SECTION ADVANTAGES---------- */
 
-.advantages {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.advantages-item {
+    margin-right: 30px;
+}
+
+.advantages-item:last-child {
+    margin-right: 0;
 }
 
 .advantages-list {
@@ -243,7 +250,7 @@ button {
 /* -------------SECTION ABOUT-------------- */
 
 .about {
-    padding-bottom: 94px;
+    padding-top: 0;
 }
 
 .about-title {
@@ -273,9 +280,6 @@ button {
 /* -----------SECTION TEAM-------------- */
 
 .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
     background-color: #f5f4fa;
 }
 
@@ -314,7 +318,8 @@ button {
 }
 
 .team-item-content {
-    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-text {
@@ -336,6 +341,14 @@ button {
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-size: 26px;
+    line-height: calc(31 / 25);
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.footer-text {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: var(--hero-title-color);
@@ -344,6 +357,14 @@ button {
 .address {
     font-style: normal;
     margin-top: 20px;
+}
+
+.address-item {
+    margin-bottom: 9px;
+}
+
+.address-item:last-child {
+    margin-bottom: 0;
 }
 
 .address-map {
@@ -371,13 +392,11 @@ button {
 
 /* ---------PORTFOLIO---------- */
 
-.filter {
-    margin-bottom: 34px;
-}
-
 .filter-list {
     display: flex;
     justify-content: center;
+
+    margin-bottom: 50px;
 }
 
 .filter-item:not(:last-child) {
@@ -432,7 +451,7 @@ button {
 }
 
 .portfolio-content {
-    margin-top: 20px;
+    padding: 20px 24px;
 }
 
 .portfolio-title {
