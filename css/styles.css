@@ -169,7 +169,8 @@ button {
 /* -----------HERO------------ */
 
 .hero {
-    /* width: 1600px; */
+    max-width: 1600px;
+    margin: 0 auto;
 
     padding-top: 200px;
     padding-bottom: 200px;
@@ -283,6 +284,9 @@ button {
 /* -----------SECTION TEAM-------------- */
 
 .team {
+    max-width: 1600px;
+    margin: 0 auto;
+
     background-color: #f5f4fa;
 }
 
@@ -307,6 +311,14 @@ button {
 
 .team-item:last-child {
     margin: 0;
+}
+
+.team-item-content {
+    background: #ffffff;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-text {
@@ -336,6 +348,8 @@ button {
 /* ---------FOOTER--------- */
 
 .footer {
+    max-width: 1600px;
+    margin: 0 auto;
     padding-top: 60px;
     padding-bottom: 60px;
     background: #2f303a;
@@ -454,6 +468,8 @@ button {
 }
 
 .portfolio-content {
+    border: 1px solid #eeeeee;
+    border-top: transparent;
     padding: 20px 24px;
 }
 
